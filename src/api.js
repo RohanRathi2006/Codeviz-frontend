@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_URL = 'http://127.0.0.1:8000';
+const API_URL = 'https://codeviz-backend-6uyy.onrender.com';
 
 export const analyzeRepo = async (repoUrl) => { /* keep existing */
   const response = await axios.post(`${API_URL}/visualize`, { url: repoUrl });
